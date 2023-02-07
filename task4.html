@@ -1,0 +1,78 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Flexbox: Task 4</title>
+
+
+        <style>
+        @font-face {
+            font-family: "Windows";
+            src: url("Windows Regular.ttf");
+        }
+
+        body {
+            background-color: #ecf39e;
+            color: #132a13;
+            font: 1.2em / 1.5 Windows;
+            padding: 1em;
+            margin: 0;
+        }
+
+        ul {
+          width: 450px;
+          list-style:none;
+          padding: 0;
+          margin: 0;
+          display: flex;
+          flex-flow: row wrap;
+          justify-content: space-evenly;
+        }
+
+        li {
+          background-color: #4D7298;
+          border: 2px solid #132a13;
+          border-radius: .5em;
+          color: #fff;
+          padding: .5em;
+          margin: .5em;
+          display: flex;
+          flex: 70px;
+        }
+
+        .veg-row-1 {
+            background-color: #90a955;
+        }
+
+        .veg-row-2 {
+            background-color: #4f772d;
+        }
+
+        .veg-row-3 {
+            background-color: #31572c;
+        }
+
+    </style>
+    </head>
+
+    <body>
+        <h1>Vatanak Lavan</h1>
+
+        <ul>
+            <li class="veg-row-1">Turnip</li>
+            <li class="veg-row-1">greens</li>
+            <li class="veg-row-1">yarrow</li>
+            <li class="veg-row-1">ricebean</li>
+            <li class="veg-row-2">rutabaga</li>
+            <li class="veg-row-2">endive</li>
+            <li class="veg-row-2">cauliflower</li>
+            <li class="veg-row-3">sea lettuce</li>
+            <li class="veg-row-3">kohlrabi</li>
+            <li class="veg-row-3">amaranth</li>
+        </ul>
+
+    </body>
+
+</html>

@@ -1,0 +1,66 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Flexbox: Task 2</title>
+
+
+        <style>
+         @font-face {
+            font-family: "Windows";
+            src: url("Windows Regular.ttf");
+        }
+
+        body {
+            background-color: #4cc9f0;
+            color: #333;
+            font: 1.2em / 1.5 Windows;
+            padding: 1em;
+            margin: 0;
+        }
+
+        ul {
+          max-width: 700px;
+          list-style:none;
+          padding: 0;
+          margin: 0;
+        }
+
+        li {
+          border: 2px solid #3a0ca3;
+          border-radius: .5em;
+          color: #fff;
+          padding: .5em;
+        }
+
+        ul {
+            display: flex;
+            flex: 1 200px;
+        }
+
+        li {
+            display: flex;
+            flex: 1 100px;
+        }
+
+    </style>
+    </head>
+
+    <body>
+        <h1 style="color: #3a0ca3;">Vatanak Lavan</h1>
+        <ul>
+            <li style="background-color: #f72585;">I am small</li>
+            <li style="background-color: #7209b7;">I have more content than the
+                very small item.</li>
+            <li style="background-color: #4361ee;">I have lots of content. So
+                much content that I don't know where
+                it is all going to go. I'm glad that CSS is pretty good at
+                dealing with situations where we end up with more words than
+                expected!</li>
+        </ul>
+
+    </body>
+
+</html>

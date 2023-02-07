@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Flexbox align 0 — starting code</title>
+        <style>
+      html {
+        font-family: sans-serif;
+      }
+
+      body {
+        width: 70%;
+        max-width: 960px;
+        margin: 20px auto;
+        background-color: #f8edeb;
+      }
+
+      button {
+        font-size: 18px;
+        line-height: 1.5;
+        width: 15%;
+        background-color: #ffb5a7;
+        border-radius: 25px;
+        border-color: #fcd5ce;
+        color: #f8edeb;
+      }
+
+      div {
+        height: 100px;
+        border: 1px solid #f9dcc4;
+        background-color: #fec89a;
+      }
+
+      /* Add your flexbox CSS below here */
+      div {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+      }   
+
+      button:first-child {
+        align-self: flex-end;
+      }     
+      
+      button:last-child {
+        align-self: flex-start;
+      }      
+
+    </style>
+    </head>
+    <body>
+        <div>
+            <button>Smile</button>
+            <button>Laugh</button>
+            <button>Wink</button>
+            <button>Shrug</button>
+            <button>Blush</button>
+        </div>
+    </body>
+</html>

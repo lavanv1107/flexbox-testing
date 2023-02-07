@@ -1,0 +1,64 @@
+<!doctype html>
+
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Flexbox: Task 1</title>
+
+
+        <style>
+        @font-face {
+            font-family: "Windows";
+            src: url("Windows Regular.ttf");
+        }
+
+        body {
+            background-color: #eae2b7;
+            color: #333;
+            font: 1.2em / 1.5 "Windows";
+            padding: 1em;
+            margin: 0;
+        }
+
+        nav ul {
+          max-width: 700px;
+          list-style:none;
+          padding: 0;
+          margin: 0;
+        }
+
+        nav a:link,
+        nav a:visited {
+          border: 2px solid #f1faee;
+          border-radius: .5em;
+          color: #fff;
+          padding: .5em;
+          display: inline-block;
+          text-decoration: none;
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+    </style>
+    </head>
+
+    <body>
+        <h1>Vatanak Lavan</h1>
+        <nav>
+            <ul>
+                <li><a href="/" style="background-color: #003049;">Home</a></li>
+                <li><a href="/about" style="background-color: #d62828;">About Us</a></li>
+                <li><a href="/products" style="background-color: #f77f00;">Our
+                        Products</a></li>
+                <li><a href="/contact" style="background-color: #fcbf49;">Contact
+                        Us</a></li>
+            </ul>
+        </nav>
+
+    </body>
+
+</html>
